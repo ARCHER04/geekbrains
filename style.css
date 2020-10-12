@@ -1,0 +1,421 @@
+  
+body {
+    margin: 0;
+    
+  }
+  
+  .container {
+    max-width: 1280px;
+    
+  }
+  
+  .main-header {
+    width: 100%;
+    min-height: 323px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #445161;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .main-header-title {
+    margin: 0;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .color-txt {
+    color: red;
+  }
+  
+  .main-header-list {
+    list-style-type: none;
+    font-family: Arial;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .main-header-list-item {
+    position: relative;
+  }
+  
+  .main-header-list-item:before {
+    content: "";
+    display: block;
+    width: 25px;
+    height: 19px;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 7px;
+    left: -37px;
+    
+    background-image: url('https://images.vexels.com/media/users/3/143487/isolated/preview/7fe39483697e2065910f66e9dacafd7e-turquoise-tick-check-mark-by-vexels.png');
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .main-header-product-photo {
+    display: block;
+    background-color:  #ffffff;
+    width: 469px;
+    height: 214px;
+    float: right;
+  }
+
+.About-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 345px;
+    padding: 50px;
+    
+}
+.title-about-product{
+    color: #445161;
+    font-family: "Arial ";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.text{
+    color: #333333;
+font-family: "Arial MT";
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+width: 640px;
+}
+.main-about-product-photo{
+    display: block;
+    background-color:  #333333;
+    width: 430px;
+    height: 214px;
+    float: right;
+    margin-right: 100px;
+}
+.main-about-project-list{
+    list-style-type: none;
+    margin-left: 0;
+}
+.dignity {
+    width: 100%;
+    padding: 50px;
+    background-color: #f5f5f5;
+  }
+  
+  .dignity-title {
+    display: block;
+    margin: 0 0 24px 0;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+  }
+  
+  .dignity-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .dignity-list-item {
+    margin: 0 0 40px 0;
+    width: 50%;
+  }
+  
+  .dignity-list-text {
+      margin: 0;
+      padding: 0 0 0 46px;
+      position: relative;
+  }
+  
+  .dignity-list-item:nth-child(5),
+  .dignity-list-item:nth-child(6){
+    margin: 0;
+  }
+  
+  .dignity-list-text:before {
+    content: "+";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-color: #445161;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    line-height: 32px;
+    position: absolute;
+    top: 0;
+    left: 5px;
+  }
+  
+
+.screenshots{
+    width: 100%;
+    max-height: 487px;
+    padding: 0 0 0 50px;
+    
+  }
+  .screenshots-flex{
+      display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .main-screenshots-wrapper{
+      display: block;
+  }
+.screenshots-title{
+    display: block;
+    margin: 51px 0 35px 0;
+    color: #445161;
+    font-family: "Arial MT";
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+}
+.main-screenshots-photo{
+    display: block;
+    top:40px;
+    background-color: #6e6868;
+    width: 200px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   
+}
+.section-3{
+    color: #445161;
+font-family: "Arial MT";
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+}
+.text-screenshots{
+    width: 356px;
+}
+
+.reviews {
+  padding: 50px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.reviews-title {
+  display: block;
+  width: 100%;
+  margin: 0 0 20px 0;
+  text-align: center;
+  color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+/* Text style for "R, eviews" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.reviews-item {
+  width: 48%;
+  margin: 0 0 20px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews-item-photo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color:#333333;
+}
+
+.reviews-item-txt {
+  width: 80%;
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  
+  position: relative;
+}
+
+.reviews-item-txt:before {
+  content: "";
+  display: block; 
+  border-right: 13px solid #fff;
+  position: absolute;
+  top: 27px;
+  left: -26px;
+}
+
+.reviews-item-txt-author {
+  display: block;
+  margin: 5px 0 0 0;
+  font-weight: bold;
+}
+
+.prices {
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  justify-content: space-around;
+  /* align-content: flex-end; */
+}
+
+.prices-header {
+  width: 100%;
+  display: block;
+  margin: 0 0 20px 0;
+  box-sizing: border-box;
+  color: #445161;
+font-family: "Arial MT";
+font-size: 30px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 36px;
+text-align: left;
+/* Text style for "B, uy it n" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.prices-item {
+  width: 25%;
+  margin: 0 20px 0 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.prices-item:nth-child(4) {
+  margin: 0;
+}
+
+.price-1 {
+  top:300px;
+  width: 300px;
+  padding: 0 0 10px 0;
+  border: 2px  solid #445161;
+  background-color: #445161;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.price-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  color: #ffffff;
+font-family: "Arial MT";
+font-size: 24px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+/* Text style for "Standart" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.price-txt {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  color: #445161;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding:18px 106px;
+  color: #445162;
+font-family: "Arial MT";
+font-size: 40px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 30px;
+text-align: left;
+/* Text style for "$, 100" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+}
+
+.price-btn {
+  display: block;
+  width: 260px;
+  padding: 5px 10px;
+  height: 40px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  text-transform: uppercase;
+  outline: none;
+  color: #445161;
+}
+.price-list{
+  color: #ffffff;
+font-family: "Arial MT";
+font-size: 14px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "1, . Porro" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+
+}
+.list{
+  margin-bottom: 5px;
+}
