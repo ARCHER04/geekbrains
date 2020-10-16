@@ -412,14 +412,19 @@ body {
   margin-bottom: 5px;
 }
 
-.form-container{
+.footer{
   width: 100%;
   background-color: #445161;
   min-height: 300px;
   max-width: 1280px;
-  
+  display: flex;
 }
+.form-container{
+  display: block;
+}
+
 .form-header{
+  margin-left: 280px;
   text-align: center;
   display: block;
   width: 100%;
@@ -486,4 +491,107 @@ textarea{
 .price-btn:active {
   color: #fff;
   background-color: orange;
+}
+
+.contacts {
+  width: 300px;
+  max-height: 250px;
+  margin-top: 135px;
+  margin-left: 50px;
+}
+
+.contacts-item {
+  display: block;
+  margin: 0 0 5px 0;
+  padding: 0 0 0 15px;
+  box-sizing: border-box;
+  position: relative;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: "Arial ";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+
+}
+
+.contacts-item::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contacts-item:nth-child(1)::before {
+  background-image: url('https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_skype-256.png');
+}
+
+.contacts-item:nth-child(2)::before {
+  background-image: url('https://cdn1.iconfinder.com/data/icons/social-media-vol-1/24/_flower-256.png');
+}
+
+.contacts-item:nth-child(3)::before {
+  background-image: url('https://cdn2.iconfinder.com/data/icons/e-commerce-online-shopping-4/64/x-05-2-256.png');
+}
+
+.contacts-item:nth-child(4)::before {
+  background-image: url('https://cdn1.iconfinder.com/data/icons/basic-ui-elements-color/700/08_phone-256.png');
+}
+
+.social {
+  width: 100%; 
+  display: flex;
+
+}
+
+.social-item {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #445161;
+  background-image: url('https://sun9-19.userapi.com/c840633/v840633496/6abd2/aHsgqxaaD4g.jpg');
+}
+
+.social-item:nth-child(1) {
+  background-position: 0 0;
+}
+
+.social-item:nth-child(2) {
+  background-position: -59px 0;
+}
+
+.social-item:nth-child(3) {
+  background-position: -118px 0;
+}
+
+.social-item:nth-child(4) {
+  background-position: -177px 0;
+}
+
+.social-item:nth-child(1):hover {
+  background-position: 0 -59px;
+}
+
+.social-item:nth-child(2):hover {
+  background-position: -59px -59px;
+}
+
+.social-item:nth-child(3):hover {
+  background-position: -118px -59px;
+}
+
+.social-item:nth-child(4):hover {
+  background-position: -177px -59px;
 }
